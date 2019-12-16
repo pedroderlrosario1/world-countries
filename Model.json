@@ -1,0 +1,50 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "world countries",
+      "intents": [
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "CountriesIntent",
+          "slots": [
+            {
+              "name": "Country",
+              "type": "AMAZON.Country"
+            }
+          ],
+          "samples": [
+            "tell me the capitol of {Country}",
+            "{Country}",
+            "about {Country}",
+            "what is the capitol of {Country}",
+            "country info for {Country}",
+            "get the capitol of {Country}",
+            "the capitol of  {Country} ",
+            "what is the location of {Country}",
+            "where is {Country}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}
